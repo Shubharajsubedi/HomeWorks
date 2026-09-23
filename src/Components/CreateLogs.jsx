@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { createLogs, deleteLogs, getLogs, updateLogs } from "../Api/logsApi";
 
-function LogManager(){
+function CreateLogs(){
     const [name,setName]=useState("")
     const [age,setAge]=useState("")
     const [diary,setDiary]=useState("")
@@ -9,7 +9,7 @@ function LogManager(){
 
     const[logs,setLogs]=useState([])
     const[edit,setEdit]=useState(null)
-    const[selectedLog,setSelectedLog]=useState(null)
+    
 
 
 
@@ -68,7 +68,7 @@ function LogManager(){
         }
         try {
             const res = await updateLogs(edit,payload)
-            setLogs(logs.map((lgs) => lgs.id === edit? res.data :lgs))
+            setLogs(logs.map((lgs) => lgs.id !== edit? lgs:res))
 
             //clears the form
             setName("")
@@ -96,11 +96,7 @@ function LogManager(){
         }
     }
 
-    //view single log
-    const viewLog = (lgs) => {
-
-        setSelectedLog(lgs)
-    }
+    
 
     return (
         <>
@@ -159,21 +155,12 @@ function LogManager(){
                     <p>{lgs.age}</p>
                     <p>{lgs.email}</p>
                     <p>{lgs.diary}</p>
-                    <button onClick={()=>viewLog(lgs)}> See Daily Logs</button>
+                    
                     <button onClick={()=>startedit(lgs)}>Edit</button>
                     
                     <button onClick={()=>deletelog(lgs.id)}>Delete</button>
 
-                    {selectedLog && (
-                        <div>
-                            <h2>Selected Employee</h2>
-                            <p>{selectedLog.name}</p>
-                            <p>{selectedLog.age}</p>
-                            <p>{selectedLog.email}</p>
-                            <p>{selectedLog.diary}</p>
-                            <button onClick={()=>setSelectedLog(null)}> Close</button>
-                        </div>
-                    )}
+                    
                 </div>
                 )
                 
@@ -188,4 +175,4 @@ function LogManager(){
 
 }
 
-export default LogManager
+export default CreateLogs;

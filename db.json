@@ -1,4 +1,39 @@
 {
-  "diary": [],
+  "diary": [
+    {
+      "name": "spider",
+      "age": "22",
+      "diary": "hey what's up?",
+      "email": "shubharajsubedi7@gmail.com",
+      "id": "gcf4JJ2_nDg"
+    },
+    {
+      "name": "batman",
+      "age": "23",
+      "diary": "im batman",
+      "email": "shubharajsubedi7@gmail.com",
+      "id": "e3PWldCs4gE"
+    }
+  ],
+  "sales": [
+    {
+      "customerName": "Thor",
+      "phoneNumber": "387283932",
+      "productname": "Hammer",
+      "id": "lXl4sRWVwJE"
+    },
+    {
+      "customerName": "Spiderman",
+      "phoneNumber": "9809789878",
+      "productname": "WEB shooter",
+      "id": "pUI8pcHNeDo"
+    },
+    {
+      "customerName": "thano",
+      "phoneNumber": "97897",
+      "productname": "biscuit",
+      "id": "r0ieadwJ0DQ"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

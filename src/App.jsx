@@ -1,8 +1,10 @@
 import LogManager from "./Components/CreateLogs";
+import SalesCreation from "./Components/SalesCreation";
 
 function App(){
   return(
-    <LogManager/>
+    // <LogManager/>
+    <SalesCreation/>
   )
 }
 
