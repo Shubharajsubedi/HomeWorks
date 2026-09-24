@@ -144,10 +144,8 @@ function SalesCreation(){
                         <button onClick={() => setShowData(true)}>Add New</button>
                         </div>
                     </th>
-                    </tr>  
-                    <tr >
-                    <th>Customer ID</th>
-                    <th colSpan="4">Perofrm Actions</th>
+                     
+                    
                 </tr>                    
                 <tr >
                     <th>Customer ID</th>

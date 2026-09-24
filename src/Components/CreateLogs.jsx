@@ -9,10 +9,6 @@ function CreateLogs(){
 
     const[logs,setLogs]=useState([])
     const[edit,setEdit]=useState(null)
-    
-
-
-
 
     const payload={
         name,age,diary,email
@@ -82,7 +78,6 @@ function CreateLogs(){
             console.log(error)
         }
     }
-
     
 
     //deleting data
