@@ -1,49 +1,114 @@
 {
   "diary": [
     {
-      "name": "shubharaj",
-      "age": "32",
-      "diary": "jaksbsab",
-      "email": "shubharajsubedi7@gmail.com",
-      "id": "Pn344EGhuKw"
+      "customerName": "name",
+      "productName": "saha",
+      "number": "232",
+      "id": "ZYWaZiv8AIM"
     },
     {
-      "email": "shubharajsubedi7@gmail.com",
-      "id": "dQffoYfmiYs"
+      "customerName": "jshs",
+      "productName": "ajhas",
+      "number": "3535",
+      "id": "pooLeoUUrAQ"
     },
     {
-      "name": "spidy",
-      "age": "",
-      "diary": "",
-      "email": "",
-      "id": "KK6pmfAu8Is"
+      "customerName": "shubharaj",
+      "productName": "shsh",
+      "number": "336",
+      "id": "bsbnVytuoRk"
     },
     {
-      "name": "batman",
-      "age": "213",
-      "diary": "amjsbgas",
-      "email": "shubharajsubedi7@gmail.com",
-      "id": "XD3WkN5zs8M"
+      "customerName": "shubha",
+      "productName": "yiuhj",
+      "number": "asbas",
+      "id": "vlFRjAymTXE"
+    },
+    {
+      "customerName": "jhkas",
+      "productName": "ashxgas",
+      "number": "25621r5",
+      "id": "0j_W3lxkrXk"
+    },
+    {
+      "customerName": "shjhsa",
+      "productName": "asjbhas",
+      "number": "378273",
+      "id": "T9VJMWQx8j8"
+    },
+    {
+      "customerName": "sahjsa",
+      "productName": "asmjbda",
+      "number": "4764",
+      "id": "00ITr4vCzcs"
+    },
+    {
+      "customerName": "batman",
+      "productName": "vibraninum",
+      "number": "87679",
+      "id": "o7H_U3xHRGg"
+    },
+    {
+      "customerName": "yghs",
+      "productName": "sahgsa",
+      "number": "878",
+      "id": "ErMLRD7mPJw"
+    },
+    {
+      "customerName": "shgvsa",
+      "productName": "jhavs",
+      "number": "8767",
+      "id": "HkevKScjCLg"
+    },
+    {
+      "customerName": "hewy",
+      "productName": "hjsaghj",
+      "number": "8797",
+      "id": "JBKsosXyu9o"
+    },
+    {
+      "customerName": "dsjhd",
+      "productName": "asjhsa",
+      "number": "8978",
+      "id": "SuzdeMlUuxQ"
+    },
+    {
+      "customerName": "shbs",
+      "productName": "sajhsa",
+      "number": "87",
+      "id": "YRiM554VbcY"
+    },
+    {
+      "customerName": "ajhsa",
+      "productName": "asjhgsa",
+      "number": "876",
+      "id": "RrQ2WKqvLv8"
     }
   ],
   "sales": [
     {
-      "customerName": "Thor",
-      "phoneNumber": "387283932",
-      "productname": "Hammer",
-      "id": "lXl4sRWVwJE"
-    },
-    {
       "customerName": "Spiderman",
-      "phoneNumber": "9809789878",
-      "productname": "WEB shooter",
+      "productName": "jhkashjsa",
+      "number": "87687",
       "id": "pUI8pcHNeDo"
     },
     {
       "customerName": "thano",
-      "phoneNumber": "97897",
-      "productname": "biscuit",
+      "productName": "asjhhas",
+      "number": "asnhbsa",
       "id": "r0ieadwJ0DQ"
+    },
+    {
+      "customerName": "hello",
+      "productName": "hi",
+      "number": "654",
+      "id": "qCqIpHLjv-Q"
+    },
+    {
+      "customerName": "heheh",
+      "productName": "code",
+      "number": "876",
+      "id": "t1bKy95ALJo"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

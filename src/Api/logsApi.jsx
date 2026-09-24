@@ -5,7 +5,11 @@ const API = axios.create({
 })
 
 //getting lOGS
-export const getLogs = () => API.get("/diary")
+export const getLogs = () => API.get("/diary ")
+
+export const getLog = (id) => API.get("/diary/"+id)
+
+
 
 //creating logs 
 export const createLogs = (data) =>API.post("/diary",data)
