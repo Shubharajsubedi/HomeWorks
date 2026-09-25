@@ -14,3 +14,5 @@ export const updateSales = (id,updatedData) => API.put(`/sales/${id}`,updatedDat
 export const deleteSales = (id) => API.delete(`/sales/${id}`)
 
 export const fetchsalesId = (id) => API.get(`/sales/${id}` )
+
+export const fetchsalesname = (id,customerName) => API.get(`/search/${id}?=${customerName}` )

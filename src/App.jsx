@@ -8,6 +8,7 @@ import EditForm from "./Pages/Logs/EditForm";
 import ViewSales from "./Pages/Sales/ViewSales";
 import SubmitSales from "./Pages/Sales/SubmitSales";
 import EditSales from "./Pages/Sales/EditSales";
+import Search from "./Pages/Sales/search";
 
 
 function App(){
@@ -22,6 +23,7 @@ function App(){
         <Route path="/viewsales" element={<ViewSales/>}/>
         <Route path="/viewsales/submit" element={<SubmitSales/>}/>
         <Route path="/viewsales/edit/:id" element={<EditSales/>}/>
+        <Route path="/viewsales/search" element={<Search/>}/>
        
         
       </Routes>

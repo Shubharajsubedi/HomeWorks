@@ -1,48 +1,6 @@
 {
   "diary": [
     {
-      "customerName": "name",
-      "productName": "saha",
-      "number": "232",
-      "id": "ZYWaZiv8AIM"
-    },
-    {
-      "customerName": "jshs",
-      "productName": "ajhas",
-      "number": "3535",
-      "id": "pooLeoUUrAQ"
-    },
-    {
-      "customerName": "shubharaj",
-      "productName": "shsh",
-      "number": "336",
-      "id": "bsbnVytuoRk"
-    },
-    {
-      "customerName": "shubha",
-      "productName": "yiuhj",
-      "number": "asbas",
-      "id": "vlFRjAymTXE"
-    },
-    {
-      "customerName": "jhkas",
-      "productName": "ashxgas",
-      "number": "25621r5",
-      "id": "0j_W3lxkrXk"
-    },
-    {
-      "customerName": "shjhsa",
-      "productName": "asjbhas",
-      "number": "378273",
-      "id": "T9VJMWQx8j8"
-    },
-    {
-      "customerName": "sahjsa",
-      "productName": "asmjbda",
-      "number": "4764",
-      "id": "00ITr4vCzcs"
-    },
-    {
       "customerName": "batman",
       "productName": "vibraninum",
       "number": "87679",
@@ -83,13 +41,20 @@
       "productName": "asjhgsa",
       "number": "876",
       "id": "RrQ2WKqvLv8"
+    },
+    {
+      "name": "hey",
+      "age": "",
+      "diary": "",
+      "email": "",
+      "id": "nwNyWdRnDGM"
     }
   ],
   "sales": [
     {
       "customerName": "Spiderman",
       "productName": "jhkashjsa",
-      "number": "87687",
+      "number": "876872323",
       "id": "pUI8pcHNeDo"
     },
     {
