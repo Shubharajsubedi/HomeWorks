@@ -1,45 +1,31 @@
 {
   "diary": [
     {
-      "customerName": "batman",
-      "productName": "vibraninum",
-      "number": "87679",
+      "name": "shubharaj",
+      "age": "474",
+      "diary": "asjbhas",
+      "email": "jas@jansj.voa",
       "id": "o7H_U3xHRGg"
     },
     {
-      "customerName": "yghs",
-      "productName": "sahgsa",
-      "number": "878",
+      "name": "batman",
+      "age": "38",
+      "diary": "hsjkhasdb",
+      "email": "sajhbads@sank.asjnc",
       "id": "ErMLRD7mPJw"
     },
     {
-      "customerName": "shgvsa",
-      "productName": "jhavs",
-      "number": "8767",
+      "name": "superman",
+      "age": "3498",
+      "diary": "superman is the best",
+      "email": "suoerman@nsdnj.cn",
       "id": "HkevKScjCLg"
     },
     {
-      "customerName": "hewy",
-      "productName": "hjsaghj",
-      "number": "8797",
-      "id": "JBKsosXyu9o"
-    },
-    {
-      "customerName": "dsjhd",
-      "productName": "asjhsa",
-      "number": "8978",
-      "id": "SuzdeMlUuxQ"
-    },
-    {
-      "customerName": "shbs",
-      "productName": "sajhsa",
-      "number": "87",
-      "id": "YRiM554VbcY"
-    },
-    {
-      "customerName": "ajhsa",
-      "productName": "asjhgsa",
-      "number": "876",
+      "name": "thor",
+      "age": "484",
+      "diary": "god of thunder",
+      "email": "thor@hajbdm.vjsn",
       "id": "RrQ2WKqvLv8"
     },
     {
@@ -74,6 +60,18 @@
       "productName": "code",
       "number": "876",
       "id": "t1bKy95ALJo"
+    },
+    {
+      "customerName": "hsjhas",
+      "productName": "",
+      "number": "",
+      "id": "TPZq3f6bxb0"
+    },
+    {
+      "customerName": "haha",
+      "productName": "",
+      "number": "",
+      "id": "oAEZZBBEJXY"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
